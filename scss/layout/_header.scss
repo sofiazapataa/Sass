@@ -1,0 +1,13 @@
+header{
+    @include flex(row,wrap,space-between,center, 1,25rem);
+    background-image: map-get($colores,color-primario);
+}
+{
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    width: 300px;
+}   img{
+    width: 100%;
+}

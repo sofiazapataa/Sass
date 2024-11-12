@@ -1,0 +1,78 @@
+.animaciones-cajas{
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+
+@keyframes miAnimacion {
+    0%{
+        background-color: yellow;
+    }
+    10%{
+        border-radius: 50%;
+        background-color: orange;
+    }
+    30%{
+        border-radius: 1px;
+        background-color: green;
+    }
+    50%{
+        border-radius: 50%;
+        border: solid 4px black;
+    }
+    75%{
+        border-radius: 1px;
+        color: rgba(255, 255, 0, 0.299);
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
+
+
+
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+  .color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+ @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  

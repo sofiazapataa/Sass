@@ -1,0 +1,23 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    ul{
+        @include flex(row,none,center,none,1.25rem)
+    }
+    li{
+        list-style: none;
+        &:hover{
+            transform: scale(1.2);
+        }
+        a{
+            color: map-get($colores,color-secundario );
+            text-decoration: none;
+            font-size: 1.875;
+        }
+    }
+
+    
+}
