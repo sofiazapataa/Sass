@@ -14,7 +14,9 @@
 
 @import"./components/animaciones";
 
-
+body{
+  background: $color-fondo;
+}
 /* From Uiverse.io by ilkhoeri */ 
 .wrapper {
     width: 100%;

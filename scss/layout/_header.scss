@@ -4,7 +4,7 @@ header{
     display: flex;
 }
 h1{
-    background-color: rgba(0, 0, 0, 0.374);
+    color: $colores-letras-h1;
     font-size: 150%;
     text-align: center;
     text-transform: uppercase;
@@ -18,7 +18,6 @@ h1{
     font-size: 5rem;
     position:relative; 
     display: flex;
-    color: white;
     position: absolute;
     left: 350px;
     top: 350px;
@@ -27,8 +26,7 @@ h1:hover{
     color: yellow;
 }
 p{
-    background-color: rgba(0, 0, 0, 0.374);
-    color: white;
+    color: $colores-parrafos
     font-size: 150%;
     text-align: center;
     font-family:"Poppins", system-ui;
